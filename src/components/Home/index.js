@@ -12,9 +12,9 @@ import styles from './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'udip'.split('')
-  const jobArray = 'Software Engineer'.split('')
-  const interestArray = 'FullStack | DevOps '.split('')
+  const nameArray = 'Chan'.split('')
+  const jobArray = 'Backend developer'.split('')
+  const interestArray = 'Backend | DevOps '.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -33,7 +33,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="Sudip Banerjee" />
+            <img src={LogoTitle} alt="Eric Chan" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
