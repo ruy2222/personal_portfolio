@@ -13,8 +13,8 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ' Eric Chan'.split('')
-  const jobArray = 'Fullstack developer'.split('')
-  const interestArray = 'Fullstack | DevOps '.split('')
+  const jobArray = 'Web developer'.split('')
+  // const interestArray = 'Fullstack | DevOps '.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -46,16 +46,13 @@ const Home = () => {
               idx={22}
             />
             <br />
-            <AnimatedLetters
+            {/* <AnimatedLetters
               letterClass={letterClass}
               strArray={interestArray}
               idx={22}
-            />
+            /> */}
           </h1>
-          <h2>
-            Streamlining Workflows | Deploying Intelligent Systems | Building
-            Scalable Applications
-          </h2>
+      
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

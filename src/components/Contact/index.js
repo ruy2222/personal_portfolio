@@ -187,9 +187,9 @@ const Contact = () => {
             Canada
             <br />
           </div>
-          <MapContainer center={[22.56263, 88.36304]} zoom={13}>
+          <MapContainer center={[43.7060, -79.3987]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[22.56263, 88.36304]}>
+            <Marker position={[43.7060, -79.3987]}>
               <Popup>
                 Eric lives here, come over for a cup of coffee :{')'}
               </Popup>

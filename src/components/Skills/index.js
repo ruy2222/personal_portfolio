@@ -31,17 +31,10 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I have a strong foundation in both development and operations, with
-            a focus on creating seamless, efficient systems. My experience
-            includes automating deployment processes, designing scalable
-            applications, and working with cloud technologies to deliver
-            reliable solutions.
+            I have a strong foundation in modern web development, focusing on building responsive, performant, and user-friendly applications. My experience includes developing scalable front-end interfaces, designing robust back-end systems, and integrating APIs to deliver seamless digital experiences.
           </p>
           <p>
-            My skill set spans across DevOps, machine learning, full-stack
-            development, and cloud infrastructure. I’m committed to staying
-            updated with the latest advancements and continually refining my
-            expertise to tackle complex challenges effectively.
+            My skill set spans full-stack web development, cloud-based deployment, and DevOps best practices. I work with modern frameworks and tools to ensure clean code, maintainability, and high performance. I’m committed to continuous learning and staying up to date with evolving web technologies to solve complex problems efficiently.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ import {
   faGitAlt,
   faGolang,
   faJsSquare,
-  faPython,
+  faNodeJs,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
@@ -39,24 +39,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I’m a DevOps and Full Stack Engineer with over 2 years of
-            experience, specializing in automating workflows, optimizing CI/CD
-            pipelines, and deploying intelligent systems. My expertise spans
-            across DevOps, full-stack, blockchain development, and aritificial
-            intelligence, with a strong foundation in security.
+           I am a web developer with over 7 years of professional experience building reliable and well-structured web applications. I have worked on a variety of web projects, guiding them from initial concept through development and deployment.
           </p>
           <p>
-            I’m passionate about solving real-world problems through innovative
-            technology and continuously learning to stay ahead of industry
-            trends. Whether it's streamlining infrastructure or building
-            scalable applications, I bring a holistic approach to every project.
+           I focus on writing clean, maintainable code and creating practical solutions that solve real business problems. I value clear communication, thoughtful problem-solving, and continuous learning to ensure the quality and long-term sustainability of my work.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+              <FontAwesomeIcon icon={faNodeJs} color="#4B8BBE" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faAws} color="#F06529" />

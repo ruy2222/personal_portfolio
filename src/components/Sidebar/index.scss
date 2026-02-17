@@ -83,6 +83,16 @@
         content: 'ABOUT';
       }
     }
+    a.experience-link {
+      &:after {
+        content: 'EXPERIENCE';
+      }
+    }
+    a.projects-link {
+      &:after {
+        content: 'PROJECTS';
+      }
+    }
 
     a.contact-link {
       &:after {

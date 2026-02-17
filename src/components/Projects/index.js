@@ -17,7 +17,7 @@ const projects = [
     category: 'Backend Development',
     status: 'Completed',
     year: '2024',
-    company: 'Mak Design Private Limited',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       'Real-time delivery of notifications',
       'End-to-end encryption for security',
@@ -37,7 +37,7 @@ const projects = [
     category: 'Frontend Development',
     status: 'Completed',
     year: '2024',
-    company: 'Mak Design Private Limited',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       'Real-time performance monitoring',
       'Map library performance comparison',
@@ -57,7 +57,7 @@ const projects = [
     category: 'Scientific Computing',
     status: 'Completed',
     year: '2023',
-    company: 'DRDO',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       '92% predictive accuracy',
       'Advanced mathematical modeling',
@@ -77,7 +77,7 @@ const projects = [
     category: 'Desktop Application',
     status: 'Completed',
     year: '2023',
-    company: 'DRDO',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       'Intuitive user interface',
       'Validated through usability testing',
@@ -97,7 +97,7 @@ const projects = [
     category: 'Data Visualization',
     status: 'Completed',
     year: '2023',
-    company: 'DRDO',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       'Interactive 2D plotting',
       'Flask API backend',
@@ -117,7 +117,7 @@ const projects = [
     category: 'Blockchain Development',
     status: 'Completed',
     year: '2023',
-    company: 'Verified Network',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       '70% reduction in transaction times',
       'IPFS Merkle DAG implementation',
@@ -137,7 +137,7 @@ const projects = [
     category: 'DevOps',
     status: 'Completed',
     year: '2023',
-    company: 'Verified Network',
+    company: 'Launchpad Technologies Pvt. Ltd.',
     features: [
       'Fully automated deployments',
       'GitHub Actions integration',
@@ -157,7 +157,7 @@ const projects = [
     category: 'Full Stack Development',
     status: 'Completed',
     year: '2022',
-    company: 'Metarootz',
+    company: 'Innovatech Solutions Inc.',
     features: [
       '10,000+ active users',
       'WebSocket voice/video calling',
@@ -204,7 +204,7 @@ const Projects = () => {
           </h1>
           <p>
             A showcase of my technical projects spanning various domains including
-            backend development, data visualization, blockchain, and DevOps. Each project
+            backend development, data visualization, and DevOps. Each project
             represents a solution to real-world challenges.
           </p>
           
