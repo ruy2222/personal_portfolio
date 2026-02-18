@@ -4,9 +4,11 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import Loader from 'react-loaders'
+import { useNavigate } from "react-router-dom"
 import { ClipLoader } from 'react-spinners'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+
 
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -101,22 +103,20 @@ const Contact = () => {
         }
       )
   }
-
-  const verifyEmail = async (email) => {
-    let res = await fetch(
-      `https://mailok-email-validation.p.rapidapi.com/verify?email=${email}`,
-      {
-        method: 'GET',
-        headers: {
-          'x-rapidapi-host': process.env.REACT_APP_RAPIDAPI_HOST,
-          'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
-        },
-      }
-    )
-
-    let data = await res.json()
-    return res.status === 200 && data.status === 'valid'
-  }
+  // const navigate = useNavigate();
+  // const handleSubmit = async (email) => {
+  //   email.preventDefault();
+  //   let res = await fetch(
+  //     `https://mailok-email-validation.p.rapidapi.com/verify?email=${email}`,
+  //     {
+  //       method: 'POST',
+  //       body: FormData,
+  //     }
+  //   )
+  //   navigate('/thank-you');
+  //   // let data = await res.json()
+  //   // return res.status === 200 && data.status === 'valid'
+  // }
 
   return (
     <>
@@ -136,7 +136,7 @@ const Contact = () => {
           </p>
 
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            {/* <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -175,6 +175,83 @@ const Contact = () => {
                 </li>
               </ul>
               <ToastContainer />
+            </form> */}
+
+            <form
+               action="https://public.herotofu.com/v1/df5a3e50-0c01-11f1-b8b0-610c8f909331"
+                method="post"
+                acceptCharset="UTF-8"
+
+            >
+              <ul>
+                
+                {/* Name + Email */}
+                <li className = "half">
+                  <input
+                    name = "Name"
+                    type = "text"
+                    placeholder = "Name"
+                    required
+                  />
+                  <input
+                    name = "Email"
+                    type = "email"
+                    placeholder = "Email"
+                    required
+                  />
+                </li>
+
+                {/* Subject */}
+                <li>
+                  <input
+                    name="Subject"
+                    type="text"
+                    placeholder="Subject"
+                  />
+                </li>
+
+                {/* Message */}
+                <li>
+                  <textarea
+                    name="Message"
+                    placeholder="Message"
+                  />
+                </li>
+
+                {/* Submit */}
+                <li className="actions">
+                  <button
+                    type="submit"
+                    className="flat-button"
+                    disabled={loading}
+                  >
+                    {loading ? <ClipLoader color="#fff" size={20} /> : 'SEND'}
+                  </button>
+                </li>
+
+                {/* Honeypot */}
+                {/* <li
+                  style={{
+                    textIndent: "-99999px",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    position: "absolute",
+                  }}
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="_gotcha"
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </li> */}
+              </ul>
+              <input
+                  type="hidden"
+                  name="_redirect"
+                  value="http://localhost:3000/thank-you"
+                />
             </form>
           </div>
         </div>

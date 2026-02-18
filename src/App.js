@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+//import { useNavigate } from "react-router-dom";
 
 import About from './components/About'
 import Contact from './components/Contact'
@@ -8,6 +9,7 @@ import Layout from './components/Layout'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Soundbar from './components/Soundbar'
+import ThankYou from "./components/ThankYou";
 import './App.scss'
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="/thank-you" element={<ThankYou />} />
           <Route path="experience" element={<Experience />} />
           <Route path="projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
