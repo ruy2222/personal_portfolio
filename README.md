@@ -2,9 +2,6 @@
 
 A modern, interactive portfolio website showcasing my journey as a Web developer. Built with React and featuring smooth animations, responsive design, and a sleek dark theme.
 
-## 🌐 Live 
-**[Visit Portfolio](https://portfolio-metaloopa.vercel.app)**
-
 ## ✨ Features
 - **Interactive UI** with smooth animations and transitions
 - **Responsive Design** optimized for all devices
@@ -22,13 +19,6 @@ A modern, interactive portfolio website showcasing my journey as a Web developer
 
 
 ## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/metal-oopa/personal-portfolio.git
-
-# Navigate to project directory
-cd personal-portfolio
 
 # Install dependencies
 npm install
