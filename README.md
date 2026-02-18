@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio
 
-A modern, interactive portfolio website showcasing my journey as a Software Development Engineer. Built with React and featuring smooth animations, responsive design, and a sleek dark theme.
+A modern, interactive portfolio website showcasing my journey as a Web developer. Built with React and featuring smooth animations, responsive design, and a sleek dark theme.
 
 ## 🌐 Live 
 **[Visit Portfolio](https://portfolio-metaloopa.vercel.app)**
